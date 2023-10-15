@@ -31,13 +31,13 @@ export default [
   }
 ]
 
-export const keys = {
-  0: "intensity",
-  1: "magnitude",
-  2: "depth",
-  3: "distance",
-  4: "buildings_destroyed",
-  5: "roads_destroyed",
-  6: "injuries",
-  7: "deaths"
-}
+export const keys = [
+  { 0: "intensity" },
+  { 1: "magnitude" },
+  { 2: "depth" },
+  { 3: "distance" },
+  { 4: "buildings_destroyed" },
+  { 5: "roads_destroyed" },
+  { 6: "injuries" },
+  { 7: "deaths" }
+]
