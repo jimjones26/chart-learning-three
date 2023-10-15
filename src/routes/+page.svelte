@@ -4,4 +4,5 @@
 	export let data: PageData;
 </script>
 
-{JSON.stringify(data.earthquakeData.default)}
+{JSON.stringify(data.data.default)}
+{JSON.stringify(data.keys)}
